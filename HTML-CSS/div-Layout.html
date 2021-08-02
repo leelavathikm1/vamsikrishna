@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div-Layout</title>
+    <style>
+        div#container {
+    border: 1px solid;
+    overflow: auto;
+    }
+    div#header {
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+div#listDiv {
+    width: 200px;
+    background-color: gray;
+    margin: 5px;
+    height: 200px;
+    float: left;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    margin-top: 10px;
+}
+div#rightDiv {
+    width: 750px;
+    float: right;
+    height: 200px;
+    margin: 5px;
+}
+div#footer {
+    background-color: black;
+    height: 50px;
+    margin: 5px;
+}
+div#middleDiv {
+    overflow: auto;
+}
+#footer p {
+    color: white;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Indian states</h1>
+        </div>
+        <div id="middleDiv">
+            <div id="listDiv">
+                <ul>
+                    <li>AndhraPradesh</li>
+                    <li>Telangana</li>
+                    <li>Tamil Nadu</li>
+                    <li>Karnataka</li>
+                    <li>Kerala</li>
+                </ul>
+            </div>
+            <div id="rightDiv">
+                <h2>State Details</h2>
+                <p>is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <p>is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+        </div>
+        <div id="footer">
+            <p>CopyRight Div Layout</p>
+        </div>
+    </div>
+</body>
+</html>
