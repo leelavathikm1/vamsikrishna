@@ -27,8 +27,33 @@ li {
 }
 div#imgDiv {
     margin: 0 auto;
+    width: 1000px;
 }
-img {
-    width: 900px;
-    margin: 30px 0 30px 30px;
+#imgDiv img {
+    width: 1000px;
+    margin-top: 10px;
+}
+.container2 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.quarterDiv {
+    margin: 10px 16px 10px;
+    float: left;
+    width: 300px;
+}
+figure {
+    border: 1px solid;
+    width: 302px;
+    margin-left: 0px;
+}
+figure img {
+    width: 293px;
+    padding: 5px;
+}
+p.more {
+    float: right;
+}
+p.more a {
+    color: red;
 }
